@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\bin\Debug\netcoreapp2.0\RecipesApp.deps.json
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\bin\Debug\netcoreapp2.0\RecipesApp.runtimeconfig.json
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\bin\Debug\netcoreapp2.0\RecipesApp.runtimeconfig.dev.json
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\bin\Debug\netcoreapp2.0\RecipesApp.dll
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\obj\Debug\netcoreapp2.0\RecipesApp.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\obj\Debug\netcoreapp2.0\RecipesApp.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\obj\Debug\netcoreapp2.0\RecipesApp.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\obj\Debug\netcoreapp2.0\RecipesApp.AssemblyInfo.cs
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\bin\Debug\netcoreapp2.0\RecipesApp.pdb
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\obj\Debug\netcoreapp2.0\RecipesApp.dll
+C:\Users\user\Desktop\Centennial\Comp229\RecipesApp\RecipesApp\obj\Debug\netcoreapp2.0\RecipesApp.pdb

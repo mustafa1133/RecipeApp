@@ -1,0 +1,13 @@
+﻿@model RecipesApp.Models.Recipe
+
+<a asp-action="ViewRecipe" asp-route-id="@Model.Id"> View</a>
+<a asp-controller="CRUD"asp-action="Update" asp-route-productId="@Model.Id"> Edit</a>
+<form asp-controller="CRUD" asp-action="Delete" method="post">
+    <input type="hidden" name="ProductId" value="@Model.Id" />
+    <button class="btn btn-link p-0 m-0 d-inline float-left"type="submit">
+        Delete
+    </button>
+
+</form>
+
+

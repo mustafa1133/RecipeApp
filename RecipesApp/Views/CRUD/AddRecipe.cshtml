@@ -1,0 +1,45 @@
+﻿@model RecipesApp.Models.Recipe
+@{
+
+    ViewBag.Title = "Add Recipe";
+}
+
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>Add A Recipe<h4></div>
+        <div class="panel-body">
+            <form class="p-a-1" asp-controller="CRUD" asp-action="AddRecipe" method="post">
+                <div asp-validation-summary="All"></div>
+
+                <div>
+                    <label asp-for="Name">Food Name:</label>
+                    <input class="form-control" asp-for="Name" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Ingredient1">Ingredient 1:</label>
+                    <input class="form-control" asp-for="Ingredient1" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Ingredient2">Ingredient 2:</label>
+                    <input class="form-control" asp-for="Ingredient2" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Ingredient3">Ingredient 3:</label>
+                    <input class="form-control" asp-for="Ingredient3" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Ingredient4">Ingredient 4:</label>
+                    <input class="form-control" asp-for="Ingredient4" />
+                </div>
+                <div class="text-lg-center">
+                    <button type="submit" class="btn btn-primary" >Save</button>
+                </div>
+                <div class="text-lg-center">
+                    <a  class="btn btn-danger" asp-controller="Home" asp-action="index" role="button" >&nbsp Cancel &nbsp</a>
+                </div>
+            </form>
+            </div>
+        </div>

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<RecipesApp.Models.Recipe>
+
+@{
+
+    ViewBag.Title = "Recipe List";
+}
+
+<div class="panel-body">
+    <h1>Recipe Details!</h1>
+</div>
+
+<table class="table table-sm table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>View Details</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (RecipesApp.Models.Recipe r in Model)
+        {
+        <tr>
+            <td>
+
+                @await Html.PartialAsync("RecipeName", r)
+            </td>
+
+            <td>
+                @await Html.PartialAsync("ReceipeDetails", r)
+            </td>
+
+        </tr>
+        }
+
+
+
+    </tbody>
+
+
+
+</table>
+
